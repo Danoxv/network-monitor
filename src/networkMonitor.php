@@ -7,6 +7,8 @@
  * @date 2023
  * @time 01:51
  */
+
+// TODO write README
 //Время сна после каждой итерации
 $timeSleep = 1;
 
@@ -85,9 +87,9 @@ while (true) {
 	$loadInPercentCPU = ($loadCPU / $nuclearCore) * 100;
 	$roundPercentCPU = $loadInPercentCPU;
 
-    /**
-     * info Wi-Fi Interface.
-     */
+	/**
+	 * info Wi-Fi Interface.
+	 */
 
 	[$receive, $transmit] = receivingUploadingSpeed($nameInterface);
 
